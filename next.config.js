@@ -1,7 +1,8 @@
-const isProd = process.env.NODE_ENV === 'production';
-
-module.exports = {
-  output: 'export',
-  basePath: isProd ? '/mcqss-app' : '',
-  assetPrefix: isProd ? '/mcqss-app' : '',
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+    output: 'export',
+    basePath: '/mcqss-app',
+    assetPrefix: '/mcqss-app/',
 };
+
+module.exports = nextConfig;
