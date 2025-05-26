@@ -1,8 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    output: 'export',
-    basePath: '/mcqss-app',
-    assetPrefix: '/mcqss-app/',
+  output: 'export',
+  basePath: '/mcqss-app',
+  assetPrefix: '/mcqss-app/',
 };
 
 module.exports = nextConfig;
